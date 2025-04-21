@@ -1,6 +1,6 @@
 ---
 title: "Hello World"
-publishedAt: "2024-06-18"
+publishedAt: "2025-04-21"
 summary: "My first post on my new blog."
 ---
 
@@ -9,3 +9,89 @@ Hi there!
 ```jsx
 console.log("Hello World");
 ```
+
+### Example of `second-post.mdx`:
+```mdx
+---
+title: "Understanding React"
+publishedAt: "2025-04-22"
+summary: "A beginner's guide to React and its core concepts."
+---
+
+React is a JavaScript library for building user interfaces. It allows you to create reusable components and manage state efficiently.
+
+```jsx
+function Welcome() {
+  return <h1>Welcome to React!</h1>;
+}
+
+
+
+### Example of `third-post.mdx`:
+```mdx
+---
+title: "Getting Started with TypeScript"
+publishedAt: "2025-04-23"
+summary: "An introduction to TypeScript and its benefits."
+---
+
+TypeScript is a superset of JavaScript that adds static typing. It helps catch errors early and improves code maintainability.
+
+```ts
+const greet = (name: string): string => {
+  return `Hello, ${name}!`;
+};
+console.log(greet("World"));
+
+
+
+### Rendering Blog Posts:
+To render these blog posts dynamically, you can create a page that reads all `.mdx` files from the [content](http://_vscodecontentref_/2) folder and displays them in a list. For example:
+
+```tsx
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join("content"));
+
+  const posts = files.map((filename) => {
+    const markdownWithMeta = fs.readFileSync(
+      path.join("content", filename),
+      "utf-8"
+    );
+
+    const { data: frontmatter } = matter(markdownWithMeta);
+
+    return {
+      frontmatter,
+      slug: filename.replace(".mdx", ""),
+    };
+  });
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
+
+export default function Blog({ posts }) {
+  return (
+    <div>
+      <h1>Blog</h1>
+      <ul>
+        {posts.map(({ frontmatter, slug }) => (
+          <li key={slug}>
+            <a href={`/blog/${slug}`}>
+              <h2>{frontmatter.title}</h2>
+              <p>{frontmatter.summary}</p>
+              <small>{frontmatter.publishedAt}</small>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

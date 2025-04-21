@@ -8,7 +8,7 @@ export const DATA = {
   location: "Kangra, Himachal Pradesh, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Developer. I love building things and helping people. Very active on Twitter & LinkedIn.",
   summary:
     // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
     "At the start of 2022, [I began combining my academic journey in Computer Science at Lovely Professional University](/#education) with real-world development work as a full-stack engineer. In the past, I built complete platforms like an Airbnb clone, GPTflix AI movie recommender, and a Swiggy-style food delivery app, trained at Gokburu Pvt. Ltd. where I scaled UI performance by 40%, and earned certifications in Cloud Computing, DevOps, and Full-Stack Development. [I’ve also contributed to open-source and maintained a year-long GitHub streak.](https://github.com/GouravSittam) I’m passionate about merging creativity with code to craft seamless, scalable, and intelligent web experiences.",
