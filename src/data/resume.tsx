@@ -18,7 +18,7 @@ export const DATA = {
     // "Next.js",
     "Typescript",
     "Node.js",
-    "Python",
+    "AWS",
     // "Go",
     "Postgres",
     "Docker",
@@ -27,6 +27,10 @@ export const DATA = {
     "JavaScript",
     "MongoDB",
     "Express",
+    "TailwindCSS",
+   
+    "Git",
+    "GitHub",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -40,7 +44,6 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/GouravSittam",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
