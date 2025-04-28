@@ -6,9 +6,9 @@ export const DATA = {
   initials: "GC",
   url: "https://github.com/GouravSittam",
   location: "Kangra, Himachal Pradesh, India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/Kangra,+Himachal+Pradesh+176001/@32.1029678,76.2520263,5255m/data=!3m2!1e3!4b1!4m6!3m5!1s0x391b458198590ddf:0xad8e3ff3dfe5b1fe!8m2!3d32.1014764!4d76.2731465!16zL20vMDhrOHgz?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D",
   description:
-    "Software Developer. I love building things and helping people. Very active on Twitter & LinkedIn.",
+    "Full Stack Developer. I love building things and helping others. Very active on X & LinkedIn.",
   summary:
     // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
     "At the start of 2022, [I began combining my academic journey in Computer Science at Lovely Professional University](/#education) with real-world development work as a full-stack engineer. In the past, I built complete platforms like an Airbnb clone, GPTflix AI movie recommender, and a Swiggy-style food delivery app, trained at Gokburu Pvt. Ltd. where I scaled UI performance by 40%, and earned certifications in Cloud Computing, DevOps, and Full-Stack Development. [I've also contributed to open-source and maintained a year-long GitHub streak.](https://github.com/GouravSittam) I'm passionate about merging creativity with code to craft seamless, scalable, and intelligent web experiences.",
