@@ -51,10 +51,11 @@ export default function Page() {
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
-          {/* <BlurFade delay={BLUR_FADE_DELAY * 5}> */}
-            {/* <h2 className="text-xl font-bold">Work Experience</h2> */}
-          {/* </BlurFade> */}
-          {/* {DATA.work.map((work, id) => (
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Work Experience</h2>
+          </BlurFade>
+          {/* 57,75 */}
+          {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
@@ -71,7 +72,7 @@ export default function Page() {
                 description={work.description}
               />
             </BlurFade>
-          ))} */}
+          ))}
         </div>
       </section>
       <section id="education">
@@ -144,7 +145,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  video={project.video}
+                  // video={project.video}
                   links={project.links}
                 />
               </BlurFade>
@@ -152,6 +153,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* 157,199 */}
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
