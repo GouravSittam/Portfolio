@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, FileTextIcon } from "lucide-react";
 
 export const DATA = {
   name: "Gourav Chaudhary",
@@ -30,10 +30,13 @@ export const DATA = {
     "TailwindCSS",
     "Git",
     "GitHub",
+    "Redux",
+
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://drive.google.com/file/d/1Iq4h8sH7mNLsiQAy1IyFdoe2DicHMkwZ/view?usp=sharing", icon: FileTextIcon, label: "CV", target: "_blank" },
   ],
   contact: {
     email: "gouravsittam@gmail.com",
@@ -44,18 +47,21 @@ export const DATA = {
         url: "https://github.com/GouravSittam",
         icon: Icons.github,
         navbar: true,
+        target: "_blank",
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/gouravsittam/",
         icon: Icons.linkedin,
         navbar: true,
+        target: "_blank",
       },
       X: {
         name: "X",
         url: "https://x.com/Gouravv_c",
         icon: Icons.x,
         navbar: true,
+        target: "_blank",
       },
       // Youtube: {
       //   name: "Youtube",
