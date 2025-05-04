@@ -22,7 +22,7 @@ export const DATA = {
     // "Go",
     "Postgres",
     "Docker",
-    "Kubernetes",
+    // "Kubernetes",
     "Java",
     "JavaScript",
     "MongoDB",
@@ -31,6 +31,15 @@ export const DATA = {
     "Git",
     "GitHub",
     "Redux",
+    "Figma",
+    "Shadcn UI",
+    "Magic UI",
+    "Socket.io",
+    "REST APIs",
+    "DevOps",
+    "CI/CD",
+    "AI",
+   
 
   ],
   navbar: [
