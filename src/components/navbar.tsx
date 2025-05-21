@@ -28,6 +28,7 @@ export default function Navbar() {
                   )}
                   // target={item.target}
                   // rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
+                  
                 >
                   <item.icon className="size-4" />
                 </Link>
