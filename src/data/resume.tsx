@@ -43,7 +43,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "https://drive.google.com/file/d/1Iq4h8sH7mNLsiQAy1IyFdoe2DicHMkwZ/view?usp=sharing", icon: FileTextIcon, label: "CV", target: "_blank" },
+    { href: "https://drive.google.com/file/d/11IAoGi7zX0r3exP5bgXDXpS3iuHEDRrq/view?usp=sharing", icon: FileTextIcon, label: "CV", target: "_blank" },
   ],
   contact: {
     email: "gouravsittam@gmail.com",
