@@ -254,6 +254,7 @@ export const DATA = {
       ],
       image: "/P2.png",
       // video: "https://cdn.magicui.design/bento-grid.mp4",
+      
     },
     // {
     //   title: "llm.report",
