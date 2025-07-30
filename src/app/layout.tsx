@@ -8,6 +8,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
+import { SmoothScroll } from "@/components/smooth-scroll";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -66,10 +67,12 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
-            {/* <AnimatedGridPattern /> */}
-            {/* <SmoothCursor /> */}
-            {children}
-            <Navbar />
+            <SmoothScroll>
+              {/* <AnimatedGridPattern /> */}
+              {/* <SmoothCursor /> */}
+              {children}
+              <Navbar />
+            </SmoothScroll>
           </TooltipProvider>
         </ThemeProvider>
       </body>
